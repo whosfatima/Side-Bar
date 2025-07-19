@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .Sidebar {
-    width: 0;
+  width: 0;
   background: #222;
   height: 100vh;
   position: fixed;
@@ -13,25 +13,25 @@
   font-family: sans-serif;
   transition: all 0.5s;
 }
-.Sidebar > h2{
-    color: #999;
-    padding-top: 20px;
-text-align: center;
+.Sidebar > h2 {
+  color: #999;
+  padding-top: 20px;
+  text-align: center;
 }
-.ctrlBtn{
-all: unset;
-font-family: sans-serif;
-margin: 20px;
-font-size: 25px;
-cursor: pointer;
+.ctrlBtn {
+  all: unset;
+  font-family: sans-serif;
+  margin: 20px;
+  font-size: 25px;
+  cursor: pointer;
 }
-.close::after{
-    content: '\002716  close';
+.close::after {
+  content: "\002716  close";
 }
-.open::after{
-    content: '\002630  open';
+.open::after {
+  content: "\002630  open";
 }
-.show{
-    display: block;
-    width: 250px;
+.show {
+  display: block;
+  width: 250px;
 }
