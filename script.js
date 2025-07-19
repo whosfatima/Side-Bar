@@ -3,5 +3,11 @@ const SideBar = document.querySelector(".Sidebar");
 
 button.onclick = () => {
   SideBar.classList.toggle("show");
-  button.classList.toggle("open");
+  if(button.classList.contains('open')){
+    button.classList.remove('open')
+    button.classList.add('close')
+  } else{
+    button.classList.remove('close')
+    button.classList.add('open')
+  }
 };
