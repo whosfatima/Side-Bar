@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.Sidebar {
+  color: #fff;
+  background: #222;
+  height: 100vh;
+  width: 250px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  transition: width 0.5s;
+}
