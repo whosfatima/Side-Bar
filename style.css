@@ -4,12 +4,34 @@
   box-sizing: border-box;
 }
 .Sidebar {
-  color: #fff;
+    width: 0;
   background: #222;
   height: 100vh;
-  width: 250px;
   position: fixed;
   top: 0px;
   right: 0px;
-  transition: width 0.5s;
+  font-family: sans-serif;
+  transition: all 0.5s;
+}
+.Sidebar > h2{
+    color: #999;
+    padding-top: 20px;
+text-align: center;
+}
+.ctrlBtn{
+all: unset;
+font-family: sans-serif;
+margin: 20px;
+font-size: 25px;
+cursor: pointer;
+}
+.close::after{
+    content: '\002716  close';
+}
+.open::after{
+    content: '\002630  open';
+}
+.show{
+    display: block;
+    width: 250px;
 }
